@@ -7,35 +7,39 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
-<body class="min-height-100vh overflow-hidden">
-  <div class="container">
-    <div class="row">
-      <div class="col">
-          <h1>Welcome Back</h1>
-          <p class="lead">Please enyer your email address<br>to login your account.
-          </p><br>
-              <input type="text" class="form-control rounded-0" id="formGroupExampleInput" placeholder="Example input placeholder">
-            <div class="col-auto">
-              <br>
-              <input type="text" class="form-control rounded-0" id="formGroupExampleInput2" placeholder="Another input placeholder">
-              <br>
-              <p class="text-primary">Forgot Password ?</p>
-              
-              <div class="d-grid gap-2">
-                  <button class="btn rounded-0 btn-primary" type="button">Login</button>
-                </div><br>
-                <P class="fw-light text-center">or connect with</P>
-                <div class="col-md-12">
-                <button type="button" class="btn9 float-start"><img src="/src/google-color-icon.png" alt="" width="20px"> Google</button>
-                <button type="button" class="btn8 float-end"><img src="/src/apple-icon.png" alt="" width="20px"> Apple</button></div>
-                
-          </div><p class="fw-lighter text-center">Dont have an account ? <a href="">Sign In</a></p></div>
-      </div>
-      <div class="col-6">
-        <img src="/src/image.png" class="rounded-0 float-left" alt="...">
-      </div>
-
-   
-    
+<body>
+  
+        <div class="row gx-0">
+          
+                <div class="pataone col d-flex align-items-center justify-content-center">
+                    <form class="welcomeform">
+                        <div class="form-group">
+                            <h1>Welcome Back</h1>
+                            <p class="text-muted">Please enter your email address<br>to login your account.</p>
+                         
+                          <input type="email" placeholder="eddie@gmail.com" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <br>
+                        </div>
+                        <div class="form-group">
+                          
+                          <input type="password" placeholder="•••••••••••" class="form-control rounded-0" id="exampleInputPassword1">
+                        </div>
+                        <p class="fw-bold text5">Forgot password ?</p>
+                        <div class="btnlogin">
+        
+                        <button class="btnbn btn btn-primary rounded-0" type="button">Login</button></div>
+                        <p class=" text-center text-muted">or connect with</p>
+                        <div class="btns d-flex justify-content-between">
+                        <button class="btn1"><img src="src/google-color-icon.png" alt="" width="15px"> Google</button>
+                        <button class="btn2"><img src="src/apple-icon.png" alt="" width="15px"> Apple</button>
+                    </div><br><br>
+                    <p class=" text-center text-muted text-muted">Don't have an account ? <a href="" class="link1">Sign in</a></p>
+                      </form>
+                </div>
+            
+            <div class="col">
+                <div class="rightside"></div>
+            </div>
+        </div>
 </body>
 </html>

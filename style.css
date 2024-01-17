@@ -1,3 +1,22 @@
+.leftside, .rightside{
+    height: 100vh;
+    width:100%;
+}
+
+
+.leftside{
+    max-width:400px;
+    
+}
+
+.rightside{
+    background: url("src/image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
 
 .btn9{
     width:150px;
@@ -8,19 +27,49 @@
     
 }
 
-.btn8{
-    width:150px;
+
+
+.btn1{
+    width:130px;
     height:40px;
-    margin:0px auto;
     background-color: #fff;
-    border: 1px solid #000;
+    border: 1px solid rgb(19, 86, 150);
     
 }
 
-.col-md-12{
-    padding-bottom: 20px;
+.btn2{
+    width:130px;
+    height:40px;
+    background-color: #fff;
+    border: 1px solid rgb(19, 86, 150);
+    
 }
 
-body{
-    background-color: #F1F2F5;
+.btnlogin{
+    padding-bottom:20px;
+    
+}
+
+
+.btnbn{
+    width: 100%;
+}
+
+.link1{
+    text-decoration: none;
+}
+
+
+.welcomeform{
+    width: 300px;
+}
+
+
+.text5{
+    padding-top: 10px;
+    color: rgb(27, 132, 218);
+}
+
+.pataone{
+    background-color:#F1F2F5;
 }
