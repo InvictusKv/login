@@ -1,0 +1,26 @@
+
+.btn9{
+    width:150px;
+    height:40px;
+    margin:0px auto;
+    background-color: #fff;
+    border: 1px solid rgb(19, 86, 150);
+    
+}
+
+.btn8{
+    width:150px;
+    height:40px;
+    margin:0px auto;
+    background-color: #fff;
+    border: 1px solid #000;
+    
+}
+
+.col-md-12{
+    padding-bottom: 20px;
+}
+
+body{
+    background-color: #F1F2F5;
+}
